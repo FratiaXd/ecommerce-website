@@ -1,0 +1,39 @@
+body {
+    background-color: 	#fdfbfb;
+    font-family: Arial, Helvetica, sans-serif
+}
+header {
+    width: 99%;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-right: 2%;
+}
+#logo{
+    width: 150px;
+    float: left;
+    display: inline;
+}
+nav {
+    margin-left: 63%;
+    padding-top: 2%;
+}
+nav a {
+    font-size: 16px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-decoration: none;
+    color: #202020;
+    font-weight: lighter;
+}
+nav a:hover {
+    border-bottom: 1px solid #202020;
+}
+#line{
+    border-bottom: 5px solid;
+    color:#A0A0A0;
+    margin-top: 12px;
+    width: 98%;
+}
+#show_vid {
+    width: 100%;
+}
