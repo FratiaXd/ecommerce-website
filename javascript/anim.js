@@ -10,10 +10,11 @@ function playVideo(videoNum)
     document.getElementById("show_vid").play();
 }
 
-document.getElementById("show_vid").addEventListener('ended', myLoop, false);
+document.getElementById("show_vid").addEventListener('ended', myLoop);
 
-function myLoop ()
+function myLoop()
 {
+    i++;
     if (i == (videoCount-1))
     {
         i = 0;
@@ -22,6 +23,5 @@ function myLoop ()
     else
     {
         playVideo(i);
-        i++;
     }
 }

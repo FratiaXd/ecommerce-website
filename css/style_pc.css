@@ -4,7 +4,7 @@ body {
 }
 header {
     width: 99%;
-    margin-left: 2%;
+    margin-left: 1.5%;
     margin-top: 0%;
     margin-right: 2%;
 }
@@ -35,5 +35,9 @@ nav a:hover {
     width: 98%;
 }
 #show_vid {
+    margin-top: 20px;
     width: 100%;
+}
+#showcase1 {
+    width: 45%;
 }
