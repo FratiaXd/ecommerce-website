@@ -75,32 +75,104 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px ;
 }
-.column1{
-    width: 24.5%;
+.brand{
+    font-size: 12px;
+    background-color: #DEDEDE;
+    font-weight: 600;
+    margin-left: 8%;
+}
+.product{
+    width: 66%;
     float: left;
-    height: 300px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-left: 8%;
+    text-decoration: none;
+    color: #363636;
+    font-weight: 500;
+}
+.price{
+    font-weight: 600;
+    float: right;
+    font-size: 14px;
+    margin-right: 3%;
+    margin-top: 10%;
+}
+.quickView{
+    position: relative;
+}
+.quickView .btn{
+    position: absolute;
+    top:48%;
+    left:33%;
+    background-color:#363636;
+    color:white;
+    text-transform:uppercase;
+    padding: 2%;
+    font-size: 0.7vw;
+    text-decoration: none;
+    border: none;
+    display: none;
+}
+.quickView:hover .btn{
+    display: block;
+}
+.column1{
+    width: 18%;
+    float: left;
+    margin-left: 12%;
+    height: 100%;
     background-color: #F5F2ED;
+    text-transform: uppercase;
+}
+.column1 img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 4%;
 }
 .column2{
-    width: 24.5%;
+    width: 18%;
     float: left;
-    margin-left: 0.6%;
-    height: 300px;
+    margin-left: 1%;
+    height: 100%;
     background-color: #F5F2ED;
+    text-transform: uppercase;
+}
+.column2 img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 4%;
 }
 .column3{
-    width: 24.5%;
+    width: 18%;
     float: left;
-    margin-left: 0.6%;
+    margin-left: 1%;
     background-color: #F5F2ED;
-    height: 300px;
+    height: 100%;
+    text-transform: uppercase;
+}
+.column3 img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 4%;
 }
 .column4{
-    width: 24.5%;
-    height: 300px;
-    margin-left: 0.6%;
+    width: 18%;
+    height: 100%;
+    margin-left: 1%;
     float: left;
     background-color: #F5F2ED;
+    text-transform: uppercase;
+}
+.column4 img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 4%;
 }
 /*footer*/
 #foot{
@@ -112,7 +184,7 @@ footer{
     max-width: 100%;
     color: white;
 }
-footer p {
+footer p{
     float: right;
     margin-top: 80px;
     font-size: 12px;
