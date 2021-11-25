@@ -264,14 +264,52 @@ nav a:hover {
     width: 50%;
     padding: 11px;
     background-color: #868686;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     color: white;
 }
 .buy:hover{
-    border: 2px solid black;
+    border: 1px solid black;
 }
 /*sign-up page*/
-
+#letter{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+#news{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+form label{
+    font-size: 14px;
+    width: 80%;
+    font-size: 13px;
+}
+form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#submit{
+    background-color: #868686;
+    border: 1px solid transparent;
+    color: white;
+    padding: 6px;
+    margin-left: 27%;
+    margin-top: 5px;
+    width: 50%;
+}
+#submit:hover{
+    border: 1px solid black;
+}
+#newsletter img{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
 /*footer*/
 #foot{
     height: 100px;
