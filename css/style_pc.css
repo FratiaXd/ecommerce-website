@@ -222,11 +222,56 @@ nav a:hover {
     height: 100%;
     text-align: justify;
 }
+#brandName{
+    margin-top: 18%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+#title{
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+#size{
+    margin-top: 0;
+    padding-top: 0;
+}
+#priceProduct{
+    font-weight: 500;
+    font-size: 20px;
+}
 .descriptionHalf p{
     width: 50%;
     margin-left: 25%;
-    margin-top: 25%;
 }
+#ingredients{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+.buy{
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 19px;
+    width: 50%;
+    padding: 11px;
+    background-color: #868686;
+    border: 2px solid transparent;
+    color: white;
+}
+.buy:hover{
+    border: 2px solid black;
+}
+/*sign-up page*/
+
 /*footer*/
 #foot{
     height: 100px;
