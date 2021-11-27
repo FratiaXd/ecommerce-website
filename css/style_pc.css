@@ -3,14 +3,17 @@ body {
     font-family: 'Lato', sans-serif;
     margin-top: 0;
     padding-top: 0;
-    margin-bottom: 8px;
+    margin: 0;
     padding-bottom: 0;
 }
 /*header and menu*/ 
 header {
-    width: 99%;
-    margin-left: 1.5%;
-    margin-right: 2%;
+    width: 98%;
+    margin-left: 2%;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    z-index: 1;
 }
 #logo{
     width: 130px;
@@ -63,10 +66,12 @@ nav a:hover {
     float: left;
 }
 #text_home {
-    width: 500px;
-    display: inline-block;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    text-align: justify;
     text-transform:uppercase;
-    position: absolute;
 }
 /*products page*/
 .count{
@@ -247,7 +252,7 @@ nav a:hover {
     font-size: 20px;
 }
 .descriptionHalf p{
-    width: 50%;
+    width: 60%;
     margin-left: 25%;
 }
 #ingredients{
@@ -268,14 +273,16 @@ nav a:hover {
     color: white;
 }
 .buy:hover{
-    border: 1px solid black;
+    background-color: #DADADA;
+    color: #363636;
 }
 /*sign-up page*/
 #letter{
     float: left;
     width: 25%;
-    margin-left: 5%;
-    margin-top: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 10%;
 }
 #news{
     width: 100%;
@@ -295,31 +302,63 @@ form input {
 }
 #submit{
     background-color: #868686;
-    border: 1px solid transparent;
+    border: none;
     color: white;
-    padding: 6px;
+    padding: 7px;
     margin-left: 27%;
     margin-top: 5px;
     width: 50%;
 }
 #submit:hover{
-    border: 1px solid black;
+    background-color: #DADADA;
+    color: #363636;
 }
 #newsletter img{
     float: left;
-    width: 45%;
-    margin-left: 5%;
+    width: 530px;
+    margin-left: 10%;
+    margin-top: 3%;
 }
 /*footer*/
 #foot{
     height: 100px;
+    float: left;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 4%;
+    float: left;
+    margin-top: 30px;
+}
+#links_section{
+    margin-left: 40%;
 }
 footer{
     background-color: #363636;
     clear: both;
-    padding: 30px 20px 30px 20px;
+    padding: 10px;
+    padding-bottom: 7px;
+    margin-top: 18px;
     max-width: 100%;
     color: white;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height: 100px;
+}
+#foot_sign{
+    background-color: #363636;
+    clear: both;
+    padding: 10px;
+    padding-bottom: 7px;
+    max-width: 100%;
+    color: white;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
 }
 footer p{
     float: right;
