@@ -62,20 +62,24 @@ nav a:hover {
     overflow: hidden;
 }
 #showcase1 {
-    width: 45%;
+    width: 22%;
     float: left;
+    margin-left: 5%;
 }
 #text_home {
-    margin-left: 30%;
+    margin-left: 3%;
     width: 40%;
     margin-top: 20%;
     margin-bottom: 15%;
+    float: left;
     text-align: justify;
     text-transform:uppercase;
 }
 #showcase2 {
-    width: 45%;
+    width: 22%;
     float: left;
+    margin-left: 3%;
+    margin-top: 11%;
 }
 /*products page*/
 .count{
