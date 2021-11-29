@@ -280,9 +280,8 @@ nav a:hover {
 #letter{
     float: left;
     width: 25%;
-    margin-left: 10%;
-    margin-top: 1%;
-    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-top: 11%;
 }
 #news{
     width: 100%;
@@ -313,11 +312,20 @@ form input {
     background-color: #DADADA;
     color: #363636;
 }
-#newsletter img{
+#news_im{
     float: left;
-    width: 530px;
-    margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 3.3%;
+    margin-bottom: 1.7%;
+    margin-left: 18%;
+    width: 30%;
+    height: 650px;
+    line-height: 115px;
+    text-align: center;
+}
+#news_im img{
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
 }
 /*footer*/
 #foot{
@@ -355,7 +363,7 @@ footer{
     padding-bottom: 7px;
     max-width: 100%;
     color: white;
-    position: fixed;
+    position: relative;
     bottom:0px;
     left:0px;
     right:0px;
