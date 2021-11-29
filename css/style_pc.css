@@ -73,6 +73,10 @@ nav a:hover {
     text-align: justify;
     text-transform:uppercase;
 }
+#showcase2 {
+    width: 45%;
+    float: left;
+}
 /*products page*/
 .count{
     margin-left: 13%;
