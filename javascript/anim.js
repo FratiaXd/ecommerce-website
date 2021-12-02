@@ -6,14 +6,18 @@ function line_animate() {
     function frame() {
         if (width == 98) {
             clearInterval(int);
-        } else {
+        } 
+        else {
             width++; 
             line.style.width = width + '%'; 
         }
     }
 }
 //Zoom product image
-
+function onClick(element) {
+    document.getElementById("im0").src = element.src;
+    document.getElementById("modal1").style.display = "block";
+}
 
 //Video loop
 const videoLocations = ["../assets/video1.webm", "../assets/video2.webm", "../assets/video3.webm", "../assets/video4.webm"]
