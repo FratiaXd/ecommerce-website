@@ -1,0 +1,105 @@
+@media screen and (max-width: 1246px)
+{
+    /*Products page*/
+    .column1 {
+        width: 37.2%;
+        margin-right: 0.8%;
+    }
+    .column2 {
+        width: 37.2%;
+        margin-left: 0.8%;
+    }
+    .column3 {
+        width: 37.2%;
+        margin-right: 0.8%;
+        margin-top: 1.6%;
+        margin-left: 12%;
+    }
+    .column4 {
+        width: 37.2%;
+        margin-left: 0.8%;
+        margin-top: 1.6%;
+    }
+    .quickView .btn {
+        left: 39%;
+        font-size: 1vw;
+    }
+    /*Single product page*/
+    .imageHalf {
+        width: 45%;
+    }
+    .descriptionHalf p{
+        width: 90%;
+        margin-left: 10%;
+    }
+    /*Sign up*/
+    #news_im {
+        float: none;
+        height: auto;
+        width: 40%;
+        margin-left: 29%;
+    }
+    #letter {
+        float: none;
+        width: 50%;
+        margin-left: 24.5%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 866px)
+{
+    /*Navigation bar*/
+    /*Home page*/
+    #showcase1 {
+        float: none;
+        margin-left: 39%;
+    }
+    #text_home1 {
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 2%;
+        margin-top: 4%;
+    }
+    #text_home2 {
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    #showcase2 {
+        float: none;
+        margin-left: 39%;
+    }
+    /*Single product page*/
+    .imageHalf {
+        float: none;
+        width: 100%;
+    }
+    .descriptionHalf {
+        position: unset;
+        display: unset;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .descriptionHalf p {
+        margin-left: 20%;
+    }
+    #brandName {
+        margin-top: 8%;
+    }
+    .buy {
+        margin-left: 20%;
+        margin-bottom: 10%;
+        width: 60%;
+    }
+    /*Sign up page*/
+    #letter {
+        width: 70%;
+        margin-left: 15%;
+    }
+    /*Footer*/
+
+}

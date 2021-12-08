@@ -60,20 +60,33 @@ nav a:hover {
     margin-top: 10px;
     width: 100%;
 }
-#pic_n_txt{
+#pic_n_txt1{
+    width: 100%;
+    overflow: hidden;
+}
+#pic_n_txt2{
     width: 100%;
     overflow: hidden;
 }
 #showcase1 {
     width: 22%;
     float: left;
-    margin-left: 5%;
+    margin-left: 14%;
 }
-#text_home {
-    margin-left: 3%;
+#text_home1 {
+    margin-left: 8%;
     width: 40%;
-    margin-top: 20%;
-    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    float: left;
+    text-align: justify;
+    text-transform:uppercase;
+}
+#text_home2 {
+    margin-left: 14%;
+    width: 40%;
+    margin-top: 13%;
+    margin-bottom: 10%;
     float: left;
     text-align: justify;
     text-transform:uppercase;
@@ -81,8 +94,8 @@ nav a:hover {
 #showcase2 {
     width: 22%;
     float: left;
-    margin-left: 3%;
-    margin-top: 11%;
+    margin-left: 8%;
+    margin-top: 1%;
 }
 /*products page*/
 .count{
