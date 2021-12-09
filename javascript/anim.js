@@ -13,6 +13,9 @@ function line_animate() {
         }
     }
 }
+//Navigation bar for mobile devices
+
+
 //Zoom product image
 function onClick(element) {
     document.getElementById("im0").src = element.src;
