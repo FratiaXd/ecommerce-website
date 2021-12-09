@@ -426,7 +426,7 @@ footer{
     right:0px;
 }
 footer p{
-    float: left;
+    float: right;
     margin-top: 80px;
-    font-size: 1.2vw;
+    font-size: 12px;
 }

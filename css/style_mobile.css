@@ -59,6 +59,7 @@
         height: 100%;
         overflow: auto;
         padding-top: 15px;
+        display: none;
     }
     nav a {
         display: block;
@@ -127,5 +128,12 @@
         margin-left: 15%;
     }
     /*Footer*/
-
+    .links {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    footer p {
+        font-size: 0.05%;
+        display: none;
+    }
 }
