@@ -49,8 +49,17 @@
 }
 @media screen and (max-width: 866px)
 {
+    /*Brand logo*/
+    #logo {
+        width: 110px;
+        padding-right: 20px;
+    }
+    #moto {
+        width: 109px;
+        padding-right: 30px;
+    }
     /*Navigation bar*/
-    nav {
+    #navigation {
         margin: 0;
         padding: 0;
         width: 200px;
@@ -61,6 +70,10 @@
         padding-top: 15px;
         display: none;
     }
+    #navigation.active {
+        display: block;
+        margin-left: -15px;
+    }
     nav a {
         display: block;
         padding: 16px;
@@ -69,11 +82,27 @@
         background-color:#A0A0A0;
         border-bottom: none;
     }
-    .sidebar {
+    .sidebarOpen {
+        position: absolute;
+        margin-top: 24px;
+        font-size: 17px;
+        margin-left: 20px;
+        text-decoration: none;
+        color: #202020;
+        display: unset;
+    }
+    .sidebarOpen:hover {
+        border-bottom: 1px solid #202020;
+    }
+    .sidebarClose {
         display: block;
+        margin-left: 35px;
+        font-size: 17px;
+        margin-top: 9px;
+        margin-bottom: 40px;
     }
     #line {
-        margin-top: 50px;
+        margin-top: 40px;
     }
     
     /*Home page*/

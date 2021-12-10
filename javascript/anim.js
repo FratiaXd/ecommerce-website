@@ -14,7 +14,10 @@ function line_animate() {
     }
 }
 //Navigation bar for mobile devices
-
+function sidebarFun() {
+    var x = document.getElementById("navigation");
+    x.classList.toggle('active')
+}
 
 //Zoom product image
 function onClick(element) {

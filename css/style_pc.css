@@ -32,6 +32,7 @@ header {
 }
 nav {
     padding-top: 29px;
+    display: block;
 }
 nav a {
     font-size: 14px;
@@ -47,7 +48,10 @@ nav a:hover {
 .active {
     font-weight: 600;
 }
-.sidebar {
+.sidebarOpen {
+    display: none;
+}
+.sidebarClose {
     display: none;
 }
 #line{
