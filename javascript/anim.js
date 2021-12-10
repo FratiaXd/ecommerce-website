@@ -20,10 +20,6 @@ function sidebarFun() {
 }
 
 //Color and font settings
-let increase = document.getElementById("font_incr");
-let nv = document.getElementById("navigation");
-increase.addEventListener('click', increaseFont());
-
 
 //Zoom product image
 function onClick(element) {
