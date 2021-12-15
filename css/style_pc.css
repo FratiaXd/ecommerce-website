@@ -31,13 +31,13 @@ header {
     padding-right: 50px;
 }
 nav {
-    padding-top: 29px;
+    padding-top: 23px;
     display: block;
 }
 nav a {
     font-size: 14px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1.8%;
+    margin-right: 1.8%;
     text-decoration: none;
     color: #202020;
     font-weight: lighter;
@@ -54,10 +54,35 @@ nav a:hover {
 .sidebarClose {
     display: none;
 }
+#font_incr {
+    margin-right: 1%;
+}
+#font_default {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#grey {
+    font-size: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: gray;
+}
+#beige {
+    font-size: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: beige;
+}
+#white {
+    font-size: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white;
+}
 #line{
     border-bottom: 6px solid;
     color:#A0A0A0;
-    margin-top: 6px;
+    margin-top: 4px;
     width: 98%;
 }
 /*home page*/
@@ -435,3 +460,17 @@ footer p{
     font-size: 12px;
 }
 /*Font-weight and background color*/
+#increaseHead a {
+    font-size: large;
+}
+#greyHead {
+    background-color: gray;
+    margin-right: 2%;
+}
+#beigeHead {
+    background-color: beige;
+    margin-right: 2%;
+}
+#whiteHead {
+    background-color: none;
+}
