@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Ordinary</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/style_pc.css">
+        <link rel="stylesheet" type="text/css" href="../css/style_mobile.css">
+        <script src="../javascript/anim.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/366979dfd8.js" crossorigin="anonymous"></script>
+    </head>
+    <!--ECOMMERCE HOME page for SOFT20181 by Katrina-->
+    <body onload="line_animate()">
+        <header>
+            <section id="headnav">
+                <section>
+                    <img id="moto" src="../assets/moto.png" alt="Brand moto">
+                </section>
+                <section>
+                    <img id="logo" src="../assets/logo.png" alt="Brand logo">
+                </section>
+                <a href="#" class="sidebarOpen" onclick="sidebarFun()"><i class="fas fa-bars"></i></a>
+                <nav id="navigation">
+                    <section class="sidebarClose" onclick="sidebarFun()"><i class="fas fa-bars"></i></section>
+                    <a href="index.html">HOME</a>
+                    <a href="products.html">PRODUCTS</a>
+                    <a href="sign_up.html">SIGN UP</a>
+                    <a href="#" id="font_incr">A</a>
+                    <a href="#" id="font_default">a</a>
+                    <a href="#" id="grey"><span>&#9632;</span></a>
+                    <a href="#" id="beige"><span>&#9632;</span></a>
+                    <a href="#" id="white"><span>&#9633;</span></a>
+                </nav>
+                <br>
+                <section id="line"></section>
+            </section>
+        </header>
+        <section>
+            <section class="imageHalf">
+                <img src="../assets/niacinamide.jpg" alt="AHA 30% + BHA 2% Peeling bottle">
+                <img src="../assets/niacinamide2.jpg" alt="AHA 30% + BHA 2% Peeling texture">
+                <img src="../assets/niacinamide3.jpg" id="last_pic" alt="AHA 30% + BHA 2% Peeling package">
+            </section>
+            <section class="descriptionHalf">
+                <p id="brandName">The Ordinary</p>
+                <p id="title">AHA 30% + BHA 2% Peeling</p>
+                <p id="size">30ml</p>
+                <p id="priceProduct">£6.25</p>
+                <p >A serum to combat blemishes, congestions and sebum over-production.
+                Using two of the most efficient blemish-battling ingredients in an ultra-high concentration 
+                formula, this light, fluid serum works to reduce both future breakouts and the appearance 
+                of existing blemishes. By controlling sebum production, pores remain clear and decongested 
+                from blemish-causing bacteria, ensuring clearer, calmer skin with prolonged use.</p>
+                <p id="ingredients">Ingredients: Glycolic Acid, Aqua (Water), Aloe Barbadensis Leaf Water, 
+                    Sodium Hydroxide, Daucus Carota Sativa Extract, Propanediol, Cocamidopropyl Dimethylamine, 
+                    Salicylic Acid, Lactic Acid, Tartaric Acid, Citric Acid.</p>
+                <button class="buy">ADD TO CART</button>
+            </section>
+        </section>
+        <footer>
+            <img id="foot" src="../assets/abnormal.png" alt="Tha abnormal beauty logo">
+            <section id="links_section">
+                <a href="https://www.instagram.com/deciem/" class="links"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/deciem" class="links"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/deciem" class="links"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@deciem" class="links"><i class="fab fa-tiktok"></i></a>
+            </section>
+            <p>© KATRINA PETREIKYTE. ALL RIGHTS RESERVED. 2021</p>
+        </footer>
+    </body>
+</html>
