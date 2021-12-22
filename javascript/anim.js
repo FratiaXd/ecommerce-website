@@ -81,9 +81,41 @@ if (localStorage.color == 'white'){
 };
 
 //Zoom product image
-function onClick(element) {
-    document.getElementById("im0").src = element.src;
-    document.getElementById("modal1").style.display = "block";
+function onClick(element, cond) {
+    var elem = document.getElementById("im0");
+    elem.src = element.src
+    document.getElementById("modal1").style.display = "unset";
+    var mar_left;
+    if (cond == true){
+        mar_left = 33;
+        element = localStorage.num;
+    }
+    else {
+        mar_left = -33;
+        localStorage.num = element;
+    }
+    var int = setInterval(frame, 11);
+    function frame() {
+        if (cond == true) {
+            if (mar_left == 100) {
+                clearInterval(int);
+                document.getElementById("modal1").style.display = "none";
+            }
+            else {
+                mar_left++;
+                elem.style.marginLeft = mar_left + '%';
+            }
+        }
+        else {
+            if (mar_left == 33) {
+                clearInterval(int);
+            } 
+            else {
+                mar_left++;
+                elem.style.marginLeft = mar_left + '%';
+            }
+        }
+    }
 }
 
 //Video loop

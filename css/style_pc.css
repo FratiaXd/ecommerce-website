@@ -206,8 +206,8 @@ nav a:hover {
     transform: translate(-50%, -50%);
 }
 #im0{
-    width: 35%;
-    margin-left: 32.5%;
+    width: 34%;
+    margin-left: 33%;
     margin-top: 2%;
 }
 .column1:hover .btn{
@@ -305,7 +305,7 @@ nav a:hover {
     margin-bottom: 2%;
 }
 .descriptionHalf{
-    margin-top: 10px;
+    margin-top: 0px;
     width: 50%;
     display: inline-block;
     position: fixed;
