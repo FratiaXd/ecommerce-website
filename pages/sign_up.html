@@ -32,7 +32,7 @@
                     <a href="#" id="font_default">a</a>
                     <a href="#" id="grey"><span>&#9632;</span></a>
                     <a href="#" id="beige"><span>&#9632;</span></a>
-                    <a href="#" id="white"><span>&#9632;</span></a>
+                    <a href="#" id="white"><span>&#9633;</span></a>
                 </nav>
                 <br>
                 <section id="line"></section>
@@ -46,16 +46,16 @@
                 <section id="news">
                     <p>SIGN UP TO OUR NEWSLETTER</p>
                 </section>
-                <form>
+                <form onsubmit="Message()">
                     <label for="fname">FIRST NAME:</label><br>
-                    <input type="text" id="fname" name="fname" pattern="[a-zA-Z]{1,}" required 
+                    <input type="text" id="fname" name="fname" pattern="[a-zA-Z\s]{1,}" required 
                     title="Letters and spaces"><br>
                     <label for="lname">LAST NAME:</label><br>
-                    <input type="text" id="lname" name="lname"  pattern="[a-zA-Z]{1,}" required
+                    <input type="text" id="lname" name="lname"  pattern="[a-zA-Z\s]{1,}" required
                     title="Letters and spaces"><br>
                     <label for="email">EMAIL ADDRESS:</label><br>
-                    <input type="email" id="email" name="email" placeholder="name@domain.com" required><br>
-                    <input type="submit" id="submit" value="SUBMIT">
+                    <input type="email" id="email" name="email" placeholder="name@domain.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
+                    <input type="submit" id="submit" value="Submit">
                 </form>
             </section>
         </section>

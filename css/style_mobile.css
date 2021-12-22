@@ -32,6 +32,10 @@
         width: 90%;
         margin-left: 10%;
     }
+    .buy{
+        margin-left: 10%;
+        width: 60%;
+    }
     /*Sign up*/
     #news_im {
         float: none;
@@ -72,7 +76,7 @@
     }
     #navigation.active {
         display: block;
-        margin-left: -15px;
+        margin-left: -1px;
     }
     nav a {
         display: block;
@@ -86,7 +90,7 @@
         position: absolute;
         margin-top: 24px;
         font-size: 17px;
-        margin-left: 20px;
+        margin-left: 34px;
         text-decoration: none;
         color: #202020;
         display: unset;

@@ -4,7 +4,7 @@ function line_animate() {
     var width = 0;
     var int = setInterval(frame, 5);
     function frame() {
-        if (width == 98) {
+        if (width == 97) {
             clearInterval(int);
         } 
         else {
@@ -146,3 +146,9 @@ function myLoop()
         playVideo(i);
     }
 }
+
+//Form submission
+function Message(){
+    alert("You successfully subscribed to our newsletter");
+}
+//Limit description section

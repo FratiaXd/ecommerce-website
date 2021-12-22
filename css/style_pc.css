@@ -12,8 +12,7 @@ body {
 }
 /*header and menu*/ 
 header {
-    width: 98%;
-    margin-left: 2%;
+    width: 100%;
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -32,6 +31,7 @@ header {
 }
 nav {
     padding-top: 23px;
+    margin-left: 2%;
     display: block;
 }
 nav a {
@@ -65,25 +65,26 @@ nav a:hover {
     font-size: 20px;
     margin-left: 1%;
     margin-right: 1%;
-    color: #9C9C9C;
+    color: #6D6D6D;
 }
 #beige {
     font-size: 20px;
     margin-left: 1%;
     margin-right: 1%;
-    color: #E1D1B9;
+    color: #B4A794;
 }
 #white {
     font-size: 20px;
     margin-left: 1%;
     margin-right: 1%;
-    color: white;
+    color: black;
 }
 #line{
     border-bottom: 6px solid;
     color:#A0A0A0;
     margin-top: 4px;
-    width: 98%;
+    margin-left: 2%;
+    width: 96%;
 }
 /*home page*/
 #vid{
@@ -337,8 +338,8 @@ nav a:hover {
     font-size: 20px;
 }
 .descriptionHalf p{
-    width: 60%;
-    margin-left: 25%;
+    width: 65%;
+    margin-left: 20%;
 }
 #ingredients{
     margin-bottom: 0;
@@ -348,7 +349,7 @@ nav a:hover {
     color: #A0A0A0;
 }
 .buy{
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 20px;
     font-size: 19px;
     width: 50%;
