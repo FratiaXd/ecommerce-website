@@ -460,6 +460,29 @@ footer p{
     margin-top: 80px;
     font-size: 12px;
 }
+/*Footer for product page*/
+.footer_prod{
+    height: 50px;
+    padding: 3px;
+}
+.foot_im{
+    height: 50px;
+    margin-left: 1%;
+    float: left;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 4%;
+    float: left;
+    margin-top: 5px;
+}
+#copy{
+    float: right;
+    font-size: 12px;
+    margin-top: 25px;
+}
 /*Font-weight and background color*/
 #increaseHead a {
     font-size: large;
