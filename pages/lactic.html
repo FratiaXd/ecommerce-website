@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Ordinary</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/style_pc.css">
+        <link rel="stylesheet" type="text/css" href="../css/style_mobile.css">
+        <script src="../javascript/anim.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/366979dfd8.js" crossorigin="anonymous"></script>
+    </head>
+    <!--ECOMMERCE HOME page for SOFT20181 by Katrina-->
+    <body onload="line_animate()">
+        <header>
+            <section id="headnav">
+                <section>
+                    <img id="moto" src="../assets/moto.png" alt="Brand moto">
+                </section>
+                <section>
+                    <img id="logo" src="../assets/logo.png" alt="Brand logo">
+                </section>
+                <a href="#" class="sidebarOpen" onclick="sidebarFun()"><i class="fas fa-bars"></i></a>
+                <nav id="navigation">
+                    <section class="sidebarClose" onclick="sidebarFun()"><i class="fas fa-bars"></i></section>
+                    <a href="index.html">HOME</a>
+                    <a href="products.html">PRODUCTS</a>
+                    <a href="sign_up.html">SIGN UP</a>
+                    <a href="#" id="font_incr">A</a>
+                    <a href="#" id="font_default">a</a>
+                    <a href="#" id="grey"><span>&#9632;</span></a>
+                    <a href="#" id="beige"><span>&#9632;</span></a>
+                    <a href="#" id="white"><span>&#9633;</span></a>
+                </nav>
+                <br>
+                <section id="line"></section>
+            </section>
+        </header>
+        <section>
+            <section class="imageHalf">
+                <img src="../assets/lactic.jpg" alt="LACTIC ACID 10% bottle">
+                <img src="../assets/lactic2.jpg" alt="LACTIC ACID 10% texture">
+                <img src="../assets/lactic3.jpg" id="last_pic" alt="LACTIC ACID 10% package">
+            </section>
+            <section class="descriptionHalf">
+                <p id="brandName">The Ordinary</p>
+                <p id="title">LACTIC ACID 10%</p>
+                <p id="size">30ml</p>
+                <p id="priceProduct">£5.50</p>
+                <p >Offering a gentle exfoliation at a 10% concentration, this lightweight serum works to improve 
+                    skin texture, reducing pigmentation caused by acne scars and age spots by stimulating cell 
+                    regeneration. The addition of hyaluronic acid strengthens the lipid barrier to improve the 
+                    skin's ability to attract and retain moisture, leading to healthier, stronger skin.</p>
+                <p id="ingredients">Ingredients: Aqua (Water), Lactic Acid, Glycerin, Pentylene Glycol, Propanediol, 
+                    Sodium Hydroxide, Sodium Hyaluronate Crosspolymer, Tasmannia Lanceolata Fruit/Leaf Extract, 
+                    Hydroxyethylcellulose, Isoceteth-20.</p>
+                <button class="buy">ADD TO CART</button>
+            </section>
+        </section>
+        <footer>
+            <img id="foot" src="../assets/abnormal.png" alt="Tha abnormal beauty logo">
+            <section id="links_section">
+                <a href="https://www.instagram.com/deciem/" class="links"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/deciem" class="links"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/deciem" class="links"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@deciem" class="links"><i class="fab fa-tiktok"></i></a>
+            </section>
+            <p>© KATRINA PETREIKYTE. ALL RIGHTS RESERVED. 2021</p>
+        </footer>
+    </body>
+</html>
