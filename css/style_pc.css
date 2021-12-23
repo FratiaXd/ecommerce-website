@@ -208,7 +208,7 @@ nav a:hover {
 }
 #im0{
     width: 34%;
-    margin-left: 33%;
+    margin-left: -33%;
     margin-top: 2%;
 }
 .column1:hover .btn{
