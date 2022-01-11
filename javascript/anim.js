@@ -149,6 +149,7 @@ function myLoop()
 
 //Form submission
 function Message(){
-    alert("You successfully subscribed to our newsletter");
+    var email = document.getElementById("email").value;
+    alert(email + ' successfully subscribed to our newsletter');
 }
 //Limit description section
