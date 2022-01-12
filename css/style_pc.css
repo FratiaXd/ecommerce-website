@@ -434,7 +434,6 @@ footer{
     background-color: #363636;
     clear: both;
     padding: 10px;
-    padding-bottom: 7px;
     margin-top: 18px;
     max-width: 100%;
     color: white;
@@ -447,10 +446,8 @@ footer{
     background-color: #363636;
     clear: both;
     padding: 10px;
-    padding-bottom: 7px;
     max-width: 100%;
     color: white;
-    position: relative;
     bottom:0px;
     left:0px;
     right:0px;
